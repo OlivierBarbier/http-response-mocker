@@ -20,7 +20,7 @@
 <div class="hero-unit">
     <h1>Mock.er</h1>
     <h2>Mock your HTTP responses to test your REST API</h2>
-    <pre>&gt; PUT http://www.mock.er/v2/<span>5185415ba171ea3a00704eed</span></pre>
+    <pre>&gt; PUT http://<?php echo $_SERVER['HTTP_HOST'] ?>/v2/<span>5185415ba171ea3a00704eed</span></pre>
   <pre>< HTTP/1.1 200 OK
 < Content-Type: application/json; charset=UTF-8
 { "<span>hello</span>": "<span>world</span>" }</pre>
